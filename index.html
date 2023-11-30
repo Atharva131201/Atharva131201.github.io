@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: black;
+            color: #fff;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #333;
+            color: rgb(10, 0, 0);
+            padding: 20px 0;
+            text-align: center;
+            background-image: url('https://www.american.edu/spa/data-science/images/datascience-hero.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        nav {
+            background-color: #4285f4;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #5c9eff;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+        }
+
+        #intro {
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: left;
+        }
+
+        #skills,
+        #experience,
+        #projects,
+        #achievements,
+        #languages,
+        #about {
+            width: 100%;
+            text-align: left;
+        }
+
+        #skills ul,
+        #experience ul,
+        #projects ul,
+        #achievements ul,
+        #languages ul,
+        #about ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #skills ul li,
+        #experience ul li,
+        #projects ul li,
+        #achievements ul li,
+        #languages ul li,
+        #about ul li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        #skills a,
+        #experience a,
+        #projects a,
+        #achievements a,
+        #languages a,
+        #about a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        #skills a:hover,
+        #experience a:hover,
+        #projects a:hover,
+        #achievements a:hover,
+        #languages a:hover,
+        #about a:hover {
+            color: #4285f4;
+        }
+
+        .content-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        #text-content {
+            width: 100%;
+            max-width: 600px;
+            color: rgb(0, 94, 128);
+        }
+
+        #image-content {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 20px;
+        }
+
+        #image-content img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <title>Atharva Nandurkar - Data Scientist</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Atharva Nandurkar</h1>
+            <p>Data Scientist</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="intro">
+        <div class="container">
+            <div class="content-container">
+                <div id="text-content">
+                    <p>Hello and welcome,
+
+                        I'm Atharva Nandurkar, and I'm on a mission to make an impact in the realm of data science. My journey has equipped me with a diverse skill set, covering key areas such as machine learning, data science, data visualization, and proficiency in languages like Python and C++.</p>
+                    <p>In the dynamic world of data science, I find joy in navigating challenges and continuously expanding my understanding of emerging technologies. My portfolio is a testament to this journey—a showcase of projects, experiences, and a commitment to excellence.</p>
+                </div>
+                <div id="image-content">
+                    <img src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Your Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="courses-certifications">
+        <div class="container">
+            <div class="content-container">
+                <div id="text-content">
+                    <h2>Courses and Certifications</h2>
+                    <ul>
+                        <li>
+                            <p>Machine Learning Specialization - Coursera</p>
+                            <p>Certificate Link: <a href="https://coursera.org/share/f8364140a378d5b584cb5c4b369e0d67">View Certificate</a></p>
+                        </li>
+                        <li>
+                            <p>Mathematics for Machine Learning - Coursera</p>
+                            <p>Certificate Link: <a href="https://coursera.org/share/2a10b5f9a91eb532ddecae52c372ff25">View Certificate</a></p>
+                        </li>
+                        <!-- Add more courses and certifications as needed -->
+                    </ul>
+                </div>
+                <div id="image-content">
+                    <img src="https://tipa.in/wp-content/uploads/2021/05/Online-courses.jpg" alt="Your Image">
+                    <!-- You can add images related to your courses and certifications here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="skills">
+        <div class="container">
+            <div class="content-container">
+                <div id="text-content">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li><a href="#">C & C++</a></li>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Machine Learning</a></li>
+                        <li><a href="#">Tableau</a></li>
+                        <li><a href="#">Data Structures and Algorithm</a></li>
+                        <li><a href="#">MySql</a></li>
+                        <li><a href="#">Communication</a></li>
+                        <li><a href="#">Team Work</a></li>
+                        <li><a href="#">Leadership</a></li>
+                    </ul>
+                </div>
+                <div id="image-content">
+                    <!-- Replace the placeholder image URL with your actual image URL -->
+                    <img src="https://static.startuptalky.com/2021/10/Top-skills-in-demand-startuptalky.jpg" alt="Your Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="projects">
+        <div class="container">
+            <div class="content-container">
+                <div id="text-content">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Atharva131201/Email-Spam" target="_blank">1.Email Spam Classifier</a><br><br>
+                            Description: In this project, I developed an advanced Email Spam Classifier using Natural Language Processing (NLP) techniques. The primary goal was to create a robust and efficient system capable of automatically analyzing incoming emails and accurately classifying them as either "spam" or "ham" (non-spam).<br><br>
+                            Code Link: <a href="https://github.com/Atharva131201/Email-Spam" target="_blank">GitHub Repository</a><br><br><br>
+                            
+                        </li>
+                        <li>
+                            <a href="#">2.AI Based Trip Planner</a><br><br>
+                            Description: In creating an AI-based Tour Guide for Pune, we collected comprehensive data from Google Maps, Zomato, and MakeMyTrip APIs, conducted thorough data cleaning and exploratory data analysis (EDA), merged datasets using location coordinates, employed KNN for proximity analysis, and implemented collaborative and content-based filtering for effective recommendations. The results were integrated into a streamlined UI using Streamlit, offering users personalized suggestions for nearby places, restaurants, and hotels based on ratings and distances.<br><br>
+                            Code Link: <a href="https://github.com/Atharva131201/AI-Based-Trip-Planner">Repository</a><br><br>
+                            Website Link: <a href="https://ai-based-trip-planner-m6uhvqm7xktqqevpayk9ah.streamlit.app/"> Click Me</a>
+                        </li>
+                        <!-- Add more projects as needed -->
+                    </ul>
+                </div>
+                <div id="image-content">
+                    <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHN8ZW58MHx8MHx8fDA%3D" alt="Your Image">
+                    <!-- You can add images related to your projects here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="achievements">
+        <div class="container">
+            <div class="content-container">
+                <div id="text-content">
+                    <h2>Achievements</h2>
+                    <ul>
+                        <li><p>Codechef:<a href="https://www.codechef.com/users/atharva_7777">My Account</a></p></li>
+                        <li><p>Leetcode:<a href="https://leetcode.com/user4408FK/">My Account</a></p></li>
+                        <!-- Add more achievements as needed -->
+                    </ul>
+                </div>
+                <div id="image-content">
+                    <!-- You can add images related to your achievements here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="languages">
+        <div class="container">
+            <div class="content-container">
+                <div id="text-content">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>1.English</li>
+                        <li>2.Hindi</li>
+                        <li>3.Marathi</li>
+                        <!-- Add more languages as needed -->
+                    </ul>
+                </div>
+                <div id="image-content">
+                    <!-- You can add images related to languages here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="experience">
+        <div class="container">
+            <div class="content-container">
+                <div id="text-content">
+                    <h2>Experience</h2>
+                    <ul>
+                        <li>SOFTWARE INTERN - HumInspAiRe</li>
+                        <li>06/04/23 - current</li>
+                        <li><a href="https://drive.google.com/file/d/1_09zwrEQNC5lCz4jPaOQHWp9j6DKEDzw/view?usp=sharing">Acceptance Letter </a></li>
+                        <!-- Add more experiences as needed -->
+                    </ul>
+                </div>
+                <div id="image-content">
+                    <!-- You can add images related to your experience here -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section id="about">
+        <div class="container">
+            <div class="content-container">
+                <div id="text-content">
+                    <h2>About</h2>
+                    <ul>
+                        <li>ATHARVA SURESH NANDURKAR</li>
+                        <li>7058933793</li>
+                        <li>PUNE, MAHARASHTRA</li>
+                        <li>You can connect with me on Linkedin: <a href="https://www.linkedin.com/in/atharva-nandurkar-41918822a/">LinkedIn</a></li>
+                        <li>You can view me on Github:<a href="https://github.com/Atharva131201">GitHub</a></li>
+
+                      
+                        
+                    </ul>
+                </div>
+                <div id="image-content">
+                    <!-- You can add images related to your experience here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- ... rest of the code ... -->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Atharva Nandurkar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Add dynamic behavior if needed
+        // This is a placeholder for any potential interactivity
+    </script>
+
+</body>
+
+</html>
